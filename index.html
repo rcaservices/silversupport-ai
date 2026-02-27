@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SilverSupport is currently undergoing scheduled maintenance. We'll be back shortly. Call (863) 591-5358 for immediate assistance.">
+    <title>SilverSupport — Scheduled Maintenance</title>
+    <style>
+        :root {
+            --brand: #64748b;
+            --brand-hover: #475569;
+            --brand-light: #94a3b8;
+            --text-primary: #1a1a1a;
+            --text-secondary: #4b5563;
+            --bg-primary: #ffffff;
+            --hero-from: #e2e8f0;
+            --hero-to: #cbd5e1;
+            --footer-bg: #1a1a1a;
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-size: 18px;
+            line-height: 1.7;
+            color: var(--text-primary);
+            background: var(--bg-primary);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Header */
+        header {
+            background: var(--bg-primary);
+            border-bottom: 1px solid #e5e7eb;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--brand);
+            text-decoration: none;
+        }
+
+        .phone-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: var(--brand);
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem 1.25rem;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: background 0.2s;
+        }
+
+        .phone-link:hover {
+            background: var(--brand-hover);
+        }
+
+        /* Main content */
+        main {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, var(--hero-from), var(--hero-to));
+            padding: 3rem 2rem;
+        }
+
+        .maintenance-card {
+            background: var(--bg-primary);
+            border-radius: 12px;
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+            padding: 3rem 2.5rem;
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .maintenance-icon {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .maintenance-card h1 {
+            font-size: 1.75rem;
+            font-weight: 800;
+            color: var(--text-primary);
+            margin-bottom: 0.75rem;
+        }
+
+        .maintenance-card p {
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+            font-size: 1.05rem;
+        }
+
+        .divider {
+            border: none;
+            border-top: 1px solid #e5e7eb;
+            margin: 1.5rem 0;
+        }
+
+        .contact-section h2 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-section p {
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
+        }
+
+        .cta-phone {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: var(--brand);
+            color: #fff;
+            text-decoration: none;
+            padding: 0.75rem 2rem;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 1.1rem;
+            transition: background 0.2s;
+        }
+
+        .cta-phone:hover {
+            background: var(--brand-hover);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--footer-bg);
+            color: #9ca3af;
+            text-align: center;
+            padding: 1.5rem 2rem;
+            font-size: 0.85rem;
+        }
+
+        footer a {
+            color: var(--brand-light);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            header {
+                padding: 0.75rem 1rem;
+            }
+
+            .logo {
+                font-size: 1.25rem;
+            }
+
+            .phone-link {
+                padding: 0.4rem 0.75rem;
+                font-size: 0.85rem;
+            }
+
+            main {
+                padding: 2rem 1rem;
+            }
+
+            .maintenance-card {
+                padding: 2rem 1.5rem;
+            }
+
+            .maintenance-card h1 {
+                font-size: 1.4rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <span class="logo">SilverSupport</span>
+    <a href="tel:+18635915358" class="phone-link">
+        <span>📞</span> (863) 591-5358
+    </a>
+</header>
+
+<main>
+    <div class="maintenance-card">
+        <div class="maintenance-icon">🔧</div>
+        <h1>We're Making Things Better</h1>
+        <p>SilverSupport is currently undergoing scheduled maintenance. We're working to improve our service and will be back online shortly.</p>
+
+        <hr class="divider">
+
+        <div class="contact-section">
+            <h2>Need Help Right Now?</h2>
+            <p>Our phone support is still available during maintenance.</p>
+            <a href="tel:+18635915358" class="cta-phone">
+                <span>📞</span> Call (863) 591-5358
+            </a>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2026 SilverSupport. Patient tech support for seniors.</p>
+</footer>
+
+</body>
+</html>
